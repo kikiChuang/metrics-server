@@ -169,7 +169,7 @@ func addNodeMetricsToTable(table *metav1beta1.Table, nodes ...metrics.NodeMetric
 				})
 			}
 			table.ColumnDefinitions = append(table.ColumnDefinitions, metav1beta1.TableColumnDefinition{
-				Name:   "Window",
+				Name:   "Window_Demo",
 				Type:   "string",
 				Format: "duration",
 			})
