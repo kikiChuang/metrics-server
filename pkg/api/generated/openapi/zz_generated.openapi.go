@@ -2094,27 +2094,27 @@ func schema_pkg_apis_metrics_v1beta1_NodeMetricsList(ref common.ReferenceCallbac
 				Description: "NodeMetricsList is a list of NodeMetrics.",
 				Type:        []string{"object"},
 				Properties: map[string]spec.Schema{
-					"kind": {
+					"kind_demo": {
 						SchemaProps: spec.SchemaProps{
 							Description: "Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
 							Type:        []string{"string"},
 							Format:      "",
 						},
 					},
-					"apiVersion": {
+					"apiVersion_demo": {
 						SchemaProps: spec.SchemaProps{
 							Description: "APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#resources",
 							Type:        []string{"string"},
 							Format:      "",
 						},
 					},
-					"metadata": {
+					"metadata_demo": {
 						SchemaProps: spec.SchemaProps{
 							Description: "Standard list metadata. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
 							Ref:         ref("k8s.io/apimachinery/pkg/apis/meta/v1.ListMeta"),
 						},
 					},
-					"items": {
+					"items_demo": {
 						SchemaProps: spec.SchemaProps{
 							Description: "List of node metrics.",
 							Type:        []string{"array"},
